@@ -3,3 +3,6 @@ spring:
     user:
       name: rookie
       password: 123123
+  thymeleaf:
+    prefix: classpath:/templates
+    suffix: .html

@@ -12,11 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/security")
 public class TestApi {
-
     @GetMapping("/hello")
     public String HelloSecurity(){
         return "Hello Security";
     }
-
-
 }
