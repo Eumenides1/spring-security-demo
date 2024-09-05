@@ -1,8 +1,8 @@
 spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
   security:
     user:
       name: rookie
       password: 123123
-  thymeleaf:
-    prefix: classpath:/templates
-    suffix: .html

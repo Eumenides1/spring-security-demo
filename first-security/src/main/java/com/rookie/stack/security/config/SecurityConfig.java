@@ -23,6 +23,7 @@ public class SecurityConfig  {
                 )
                 .formLogin((formLogin) -> formLogin
                         .loginPage("/login.html")
+                        .loginProcessingUrl("/doLogin")
                         .permitAll()
                 );
         return http.build();

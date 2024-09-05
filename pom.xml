@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>first-security</module>
+        <module>jdbc-user-auth</module>
     </modules>
 
     <properties>
